@@ -1,0 +1,122 @@
+
+header {
+    background: rgba(44, 25, 101,0.5);
+    height: 80px;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(150, 150, 200);
+    box-shadow: 3px 0px 20px black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+li{
+    list-style: none;
+}
+
+#heading{
+    color: white;
+    font-size: 30px;
+    padding: 0px;
+    margin:20px;
+    word-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("images/c.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.title-name {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    font-size: 30px;
+    line-height: 100px;
+    padding-left: 40px;
+}
+
+#profile p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.state{
+    padding: 15px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+#container{
+    margin-left: 250px;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+}
+
+#logout{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    float: right;
+    padding: 15px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    margin-top: 80px;
+    position: fixed;
+    z-index: 1;
+    top: auto;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Montserrat', 'sans-serif';
+  }
+  
+  .sidenav p{
+    font-size: 25px;
+    padding: 6px 8px 6px 16px;
+    color: white;
+    display: block;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-family:verdana;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #7fd0f6;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
