@@ -25,7 +25,7 @@
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form action="validation.php" method="post">
+            <form action="https://loginsysteminphp.herokuapp.com/validation.php" method="post">
                 <h1 style="padding-bottom:40px;">Sign in</h1>
                 <input type="text" name="username" placeholder="Username" required/>
                 <input type="password" name="password" placeholder="Password" required/>
