@@ -1,4 +1,4 @@
-# Login-System
+# Login System
 A simple login-system made with php.
 
 <p align="center">
